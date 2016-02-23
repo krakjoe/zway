@@ -29,6 +29,7 @@ Then ... profit ?
 
 API
 ===
+*There is WIP here ... don't look, unless extremely brave*
 
 ```php
 namespace ZWay {
