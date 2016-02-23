@@ -27,6 +27,9 @@ Then the extension can be built and installed:
 
 Then ... profit ?
 
+API
+===
+
 ```php
 namespace ZWay {
 
