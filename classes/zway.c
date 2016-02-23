@@ -214,8 +214,7 @@ PHP_METHOD(ZWay, isRunning) {
 	RETURN_BOOL(zway_is_running(pz->zw));
 }
 
-static inline void php_zway_terminate(void *arg) {
-	php_zway_t *pz = (php_zway_t*) arg;
+static inline void php_zway_terminate(ZWay zway, php_zway_t *pz) {
 	/*
 		NEVER do anyting Zend here ...
 
