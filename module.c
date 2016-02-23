@@ -30,6 +30,7 @@
 #include <ZWayLib.h>
 
 #include "classes/zway.h"
+#include "classes/zwlog.h"
 
 /* {{{ PHP_MINIT_FUNCTION
  */
