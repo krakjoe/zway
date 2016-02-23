@@ -23,7 +23,7 @@ Then the extension can be built and installed:
     $ make
     $ sudo make install
 
-*``/path/to/z-way-server-dist``` should contain the directories ```libzway```, and ```libs```, and the executable ```z-way-server```.*
+*```/path/to/z-way-server-dist``` should contain the directories ```libzway```, and ```libs```, and the executable ```z-way-server```.*
 
 Then ... profit ?
 
