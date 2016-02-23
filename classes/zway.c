@@ -216,6 +216,12 @@ PHP_METHOD(ZWay, isRunning) {
 
 static inline void php_zway_terminate(void *arg) {
 	php_zway_t *pz = (php_zway_t*) arg;
+	/*
+		NEVER do anyting Zend here ...
+
+		I don't think this feature can be used inside ZE
+		this callback exists only to warn you !!
+	*/
 }
 
 PHP_METHOD(ZWay, start) {
